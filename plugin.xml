@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="yandex-mobile-sdk-plugin-cordova" version="0.0.1"
+	xmlns="http://apache.org/cordova/ns/plugins/1.0"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<name>Yandex-Mobile-SDK-Plugin</name>
+
+	<js-module name="YandexMobileSDKPlugin" src="www/YandexMobileSDKPlugin.js">
+		<clobbers target="YandexMobileSDKPlugin" />
+	</js-module>
+  
+	<platform name="android">
+		<config-file parent="/*" target="res/xml/config.xml">
+			<feature name="YandexMobileSDKPlugin">
+				<param name="android-package" value="com.mist1351.plugins.YandexMobileSDKPlugin" />
+        <!--param name="onload" value="true" /-->
+			</feature>
+		</config-file>
+		<config-file parent="/manifest/application" target="AndroidManifest.xml"></config-file>
+		<source-file src="src/android/com/mist1351/plugins/YandexMobileSDKPlugin.java" target-dir="src/com/mist1351/plugins/YandexMobileSDKPlugin" />
+
+		<framework src="platforms/android/build.gradle" custom="true" type="gradleReference" />
+	</platform>
+
+</plugin>

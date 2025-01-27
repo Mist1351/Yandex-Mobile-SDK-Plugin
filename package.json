@@ -1,0 +1,23 @@
+{
+  "name": "yandex-mobile-sdk-plugin-cordova",
+  "version": "0.0.1",
+  "description": "",
+  "cordova": {
+    "id": "yandex-mobile-sdk-plugin-cordova",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "Mist1351",
+  "license": "ISC"
+}
