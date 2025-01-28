@@ -1,4 +1,4 @@
-cordova.define("cordova-plugin-fullscreen.AndroidFullScreen", function(require, exports, module) {
+cordova.define("cordova-plugin-yandex-mobile-sdk.YandexMobileSDK", function(require, exports, module) {
 (function(window, undefined)
 {
 	'use strict';
@@ -7,7 +7,7 @@ cordova.define("cordova-plugin-fullscreen.AndroidFullScreen", function(require, 
 	{
 		isSupported: function(successFunction, errorFunction)
 		{
-      cordova.exec(successFunction, errorFunction, 'Yandex-Mobile-SDK-Plugin', 'coolMethod', [])
+      cordova.exec(successFunction, errorFunction, 'YandexMobileSDK', 'coolMethod', [])
 		},
 	};
 	

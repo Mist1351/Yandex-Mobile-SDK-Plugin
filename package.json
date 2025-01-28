@@ -1,9 +1,9 @@
 {
-  "name": "yandex-mobile-sdk-plugin-cordova",
+  "name": "cordova-plugin-yandex-mobile-sdk",
   "version": "0.0.1",
-  "description": "",
+  "description": "Cordova Yandex Mobile SDK plugin",
   "cordova": {
-    "id": "yandex-mobile-sdk-plugin-cordova",
+    "id": "cordova-plugin-yandex-mobile-sdk",
     "platforms": [
       "android"
     ]
